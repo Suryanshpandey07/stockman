@@ -1,80 +1,4 @@
-/* #username{
-    width: 250px;
-    height: 35px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 16px;
-    margin-bottom: 15px;
-    background-color: aqua;
-    align-items: center;
-    text-align: center;
-    
 
-}
-h1{
-    text-align: center;
-    color: rgb(243, 238, 243);
-    font-size: 50px;
-    background-color: rgb(38, 117, 173);
-    border: 100%;
-    border-radius: 100%;
-    height: 150px;
-    
-}
-h4{
-    text-align: center;
-    color: rgb(202, 201, 215);
-    font-size: 20px;
-    
-}
-#password{
-    width: 250px;
-    height: 35px;
-    border: 1px solid #b94e4e;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 16px;
-    margin-bottom: 15px;
-    background-color: aqua;
-    align-items: center;
-    text-align: center;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-.log{
-    border: 2px solid black;
-    width: 400px;
-    height: 500px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px grey;
-    background-color: white;
-    background-color: rgb(20, 39, 159);
-}
-body{
-    background: radial-gradient(ellipse at center, rgb(36, 104, 220), rgb(0, 0, 0));
-}
-button{
-    width: 100px;
-    height: 35px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(36, 104, 220);
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: rgb(24, 70, 149);
-} */
- /* Global Styling */
 body{
     margin: 0;
     padding: 0;
@@ -82,7 +6,7 @@ body{
     background: radial-gradient(circle at center, #3b82f6, #000);
 }
 
-/* Login Container */
+
 .log{
     width: 400px;
     height: auto;
@@ -94,7 +18,7 @@ body{
     text-align: center;
 }
 
-/* Heading */
+
 h1{
     color: #fff;
     font-size: 42px;
@@ -106,7 +30,7 @@ h4{
     margin-bottom: 30px;
 }
 
-/* Input Fields */
+
 #username,
 #password{
     width: 280px;
@@ -128,14 +52,14 @@ h4{
     box-shadow: 0 0 8px #3b82f6;
 }
 
-/* Form Centering */
+
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Button */
+
 .login-button {
     width: 120px;
     height: 40px;
